@@ -37,21 +37,16 @@ acc2.Deposit(200)
 
 acc1.Withdraw(50)
 acc1.Transfer(200, acc2)
----
+```
+## ✅ Things I Learned
 
-## Things I Learned
-✅ Object-Oriented Programming (OOP) Concepts
+1. **Object-Oriented Programming (OOP) Concepts**
+   - How to define **classes** and create **objects**.
+   - Using **`__init__()`** to initialize object attributes.
+   - Applying **inheritance** to extend base class features (e.g., `InterestRewardAccount` inherits from `Bankaccounts`).
 
-Defining classes and creating objects
+2. **Method Overriding**
+   - How to **override** a method in a child class to provide special behavior (5% interest on deposits).
 
-Using constructors (__init__()) to initialize data
-
-Applying inheritance to extend functionality (InterestRewardAccount)
-
-✅ Method Overriding
-
-Overriding parent class methods in child classes to customize behavior (e.g., adding 5% interest on deposits)
-
-✅ Encapsulation
-
-Keeping data (balance, name) and behavior (Deposit, Withdraw) together inside a class
+3. **Encapsulation**
+   - Grouping data (`balance`, `name`) and related functions (**Deposit**, **Withdraw**, etc.) together for better organization.
